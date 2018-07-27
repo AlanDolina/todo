@@ -1,0 +1,96 @@
+.navb{
+    background-color: #4ab3e4;
+    padding: 15px 10%;
+    color: white;
+    display: grid;
+    grid-template-areas: 'a b c d';
+    align-content: space-around;
+}
+.navb a:hover{
+    color: rgb(251, 255, 0);
+    text-decoration: none;
+}
+
+.navb a{
+    color: white;
+}
+
+#mainPage{
+    grid-area: a;
+}
+
+#blankNav{
+    grid-area: b;
+}
+
+#logIn{
+    grid-area: c;
+}
+
+#register{
+    grid-area: d;
+}
+
+#tasks{
+    grid-area: a;
+}
+
+#tasksHis{
+    grid-area: b;
+}
+
+#userName{
+    grid-area: c;
+    color: black;
+}
+
+#logOut{
+    grid-area: d;
+}
+
+#createTodo{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0px;
+    border-bottom: 1px solid #4ab3e4;
+    border-left: 1px solid #4ab3e4;
+    border-right: 1px solid #4ab3e4;
+    display:none;
+    background-color: #d1ecf1;
+    padding: 5px 5px;
+
+}
+
+
+.deleteLink{
+    color: red;
+}
+
+#createToggle{
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+    border-left: 1px solid #4ab3e4;
+    border-right:1px solid #4ab3e4;
+    border-bottom: 1px solid #4ab3e4;
+    margin-bottom: 15px;
+    background-color: #d1ecf1;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.zrobione{
+    text-align: center;
+    font-size: 35px;
+}
+
+.margintop{
+    margin-top: 15px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
